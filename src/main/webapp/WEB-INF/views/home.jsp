@@ -4,21 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Casa do código</title>
+<title>Livros de Java, Android, iPhone, Ruby, PHP e muito mais - Casa do Código</title>
 </head>
 <body>
-	<h1>OLAR</h1>
+	<h1>Casa do Código</h1>
 	<table>
-		<thead>
-			<tr>
-				<th>Curso</th>
-				<th>Descrição</th>
-			</tr>
-		</thead>
-		<tr>
-			<td>Programação JAVA</td>
-			<td>Testes</td>
-		</tr>
+	    <tr>
+	        <td>Java 8 Prático</td>
+	        <td>Certificação OCJP</td>
+	    </tr>
+	    <tr>
+	        <td>TDD na Prática - JAVA</td>
+	        <td>Google Android</td>
+	     </tr>
+
 	</table>
 </body>
 </html>
