@@ -23,13 +23,13 @@ public class JPAConfiguration {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUsername("postgres");
         dataSource.setPassword("root");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/casadocodigo");
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("dbc:postgresql://localhost:5432/casadocodigo");
+        dataSource.setDriverClassName("org.postgresql.Driver");
 
         factoryBean.setDataSource(dataSource);
 
         Properties props = new Properties();
-        props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+        props.setProperty("hibernate.dialect", "br.com.infowaypi.connector.postgre.PostgreSQLSerialDialect");
         props.setProperty("hibernate.show_sql", "true");
         props.setProperty("hibernate.hbm2ddl.auto", "update");
 
