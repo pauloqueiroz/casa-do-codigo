@@ -12,11 +12,11 @@ import br.com.casadocodigo.loja.models.Produto;
 @Transactional
 public class ProdutoDAO {
 
-	 @PersistenceContext
-	 private EntityManager manager;
+	@PersistenceContext
+	private EntityManager manager;
 
-	    public void gravar(Produto produto){
-	        manager.persist(produto);
+	public void gravar(Produto produto) {
+		manager.persist(produto);
 	}
 
 }
