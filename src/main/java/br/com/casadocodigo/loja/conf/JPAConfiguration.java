@@ -29,7 +29,7 @@ public class JPAConfiguration {
         factoryBean.setDataSource(dataSource);
 
         Properties props = new Properties();
-        props.setProperty("hibernate.dialect", "br.com.infowaypi.connector.postgre.PostgreSQLSerialDialect");
+        props.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         props.setProperty("hibernate.show_sql", "true");
         props.setProperty("hibernate.hbm2ddl.auto", "update");
 
