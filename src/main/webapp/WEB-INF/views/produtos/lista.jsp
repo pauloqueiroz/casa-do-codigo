@@ -11,6 +11,7 @@
 	Casa do Código</title>
 </head>
 <body>
+	<div><p>${sucesso}</p></div>
 	<table>
 		<tr>
 			<td>Título</td>

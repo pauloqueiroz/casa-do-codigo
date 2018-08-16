@@ -19,6 +19,9 @@
 			<label>Descrição</label>
 			<textarea rows="10" cols="20" name="descricao"></textarea>
 		</div>
+		<div>
+			<label>Páginas</label> <input type="text" name="paginas" />
+		</div>
 		<c:forEach items="${tipos}" var="tipoPreco" varStatus="status">
         <div>
             <label>${tipoPreco}</label>
