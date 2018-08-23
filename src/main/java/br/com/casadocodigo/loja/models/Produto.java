@@ -1,3 +1,4 @@
+
 package br.com.casadocodigo.loja.models;
 
 import java.io.Serializable;
@@ -23,6 +24,8 @@ public class Produto implements Serializable{
 	private String titulo;
 	
 	private String descricao;
+	
+	private String sumarioPath;
 	
 	private int paginas;
 	
@@ -64,6 +67,14 @@ public class Produto implements Serializable{
 
 	public void setPrecos(List<Preco> precos) {
 		this.precos = precos;
+	}
+
+	public String getSumarioPath() {
+		return sumarioPath;
+	}
+
+	public void setSumarioPath(String sumarioPath) {
+		this.sumarioPath = sumarioPath;
 	}
 	
 	

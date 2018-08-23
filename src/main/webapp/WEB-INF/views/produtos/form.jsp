@@ -14,7 +14,7 @@
 	Casa do Código</title>
 </head>
 <body>
-	<form action="/casadocodigo/produtos" method="post">
+	<form action="/casadocodigo/produtos" method="post" enctype="multipart/form-data">
 		<div>
 			<form:errors path="produto.titulo" />
 			<label>Título</label> <input type="text" name="titulo" />
@@ -35,6 +35,10 @@
             <input type="hidden" name="precos[${status.index}].tipo" value="${tipoPreco}" />
         </div>
     </c:forEach>
+    	<div>
+	        <label>Sumário</label> 
+	        <input name="sumario" type="file" />
+    	</div>
 		<button type="submit">Cadastrar</button>
 	</form>
 
